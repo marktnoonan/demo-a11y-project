@@ -5,7 +5,7 @@
       <div>
         <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
         <input
-          id="name"
+          id="name1"
           v-model="form.name"
           type="text"
           required
@@ -14,7 +14,7 @@
       </div>
       
       <div>
-        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <label for="email1" class="block text-sm font-medium text-gray-700">Email</label>
         <input
           id="email"
           v-model="form.email"
