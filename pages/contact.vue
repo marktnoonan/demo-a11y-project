@@ -3,7 +3,7 @@
     <h1 class="text-3xl font-bold mb-8">Contact Me</h1>
     <form @submit.prevent="handleSubmit" class="space-y-6">
       <div>
-        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <label for="nameb" class="block text-sm font-medium text-gray-700">Name</label>
         <input
           id="name"
           v-model="form.name"
@@ -14,7 +14,7 @@
       </div>
       
       <div>
-        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <label for="emailb" class="block text-sm font-medium text-gray-700">Email</label>
         <input
           id="email"
           v-model="form.email"
